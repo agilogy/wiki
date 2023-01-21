@@ -1,4 +1,6 @@
 site_name: Agilogy knowledge base
 theme: 
   name: material
+  plugins:
+    - search
 docs_dir: docs
