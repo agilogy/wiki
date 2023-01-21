@@ -1,3 +1,4 @@
 site_name: Agilogy knowledge base
-theme: readthedocs
+theme: 
+  name: material
 docs_dir: docs
