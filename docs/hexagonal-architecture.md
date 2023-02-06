@@ -212,7 +212,7 @@ In some situations, this could be a substitute for the application core unit tes
 
 Driven port adapter tests are unit tests in the sense that we are testing just one component (the adapter) but, at the same time, we can see them as integration tests because we will usually use an external system to test them. 
 
-It is difficult to generalize when considering these kind of tests because the possibilites that we have will depend on the infrastructure that we are going to connect. As a rule of thumb, generally we nedd:
+It is difficult to generalize when considering these kind of tests because the possibilites that we have will depend on the infrastructure that we are going to connect. As a rule of thumb, generally we need:
 
 * To be able to set the external system in a known state so that 
   * We can write assertions based on the state of the system before and after the operation execution
