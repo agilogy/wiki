@@ -200,7 +200,7 @@ It is relatively simple to test this, all we need is to create a test double for
 
 ![app tests](hexagonal-architecture/hexagonal-architecture-driver-port-adapter-integration-testing.png)
 
-In this case, we would be mocking the driven ports and testing the adapter integrated with the application core. This can make testing some scenarios more difficult (like certain error conditions), specially because it might be difficult to tell if the business logic was correctly invocated just by looking at the test doubles for the driven port adapters.
+In this case, we would be testing the adapter integrated with the application core but, unlike in a e2e test, we will be mocking the driven port adapters. This can make testing some scenarios more difficult (like certain error conditions), specially because it might be difficult to tell if the business logic was correctly invocated just by looking at the test doubles for the driven port adapters.
 
 Also, when one of these tests fails, it might be difficult to tell whether the failure is in the driver port adapter or in the business logic itself.
 
